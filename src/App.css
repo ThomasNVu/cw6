@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+.counter, .hello {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+/* Buttons */
+button, .btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: lightblue;
+}
+
+.show {
+  margin: 0 auto;
+}
+
+.dropdown-menu.show {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dropdown-item {
+  margin: 0 20px;
+}
+
+
+.filter-list {
+  background-color: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.filter-list h1, .counter h1, .hello h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.filter-list input {
+  width: 80%;
+  padding: 10px;
+  margin: 15px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background-color: lightgray;
+  margin: 8px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 24px;
+  color: black;
+}
